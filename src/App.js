@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Destinations from "./components/Destinations";
 import Search from "./components/Search";
 import Selects from "./components/Selects";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Destinations />
       <Search />
       <Selects />
+      <Carousel />
     </div>
   );
 }
